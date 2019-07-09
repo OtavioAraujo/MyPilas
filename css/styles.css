@@ -19,7 +19,7 @@ header img {
 }
 
 .container {
-	width: 1200px;
+	width: 100%;
 	padding: 0 15px;
 	margin: 0 auto;
 }
@@ -36,10 +36,16 @@ header img {
 
 article {
 	border: 1px solid #95a4a5;
-	width: 370px;
 	padding: 10px;
-	float: left;
-	margin-right: 30px;
+}
+
+@media (min-width: 800px) {
+	article {
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
+
 }
 
 article:last-child {
