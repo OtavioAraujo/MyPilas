@@ -6,20 +6,18 @@ Layout-header
 
 .layout-header {
 	height: 60px;
+	line-height: 60px;
 	border-bottom: 1px solid #ccc;
+
+	background-color: #fff;
 }
 
-.layout-header--home {
-	background-color: #fff;
+.layout-header--home {	
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	z-index: 9999;
-}
-
-.layout-header img {
-	margin-top: 12px;
 }
 
 /*----------------------------------------*\
@@ -55,7 +53,7 @@ Layout-testimony
 .layout-testimony {
 	padding: 80px 0;
 
-	background-color: #ccc;
+	background-color: #e2e2e2;
 }
 
 /*----------------------------------------*\
