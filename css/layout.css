@@ -70,3 +70,13 @@ Layout-footer
 	
 	text-align: center;
 }
+
+/*----------------------------------------*\
+
+Layout-sign-it
+
+\*----------------------------------------*/
+
+.layout-sign-it {
+	padding: 40px 0;
+}
